@@ -1,0 +1,2 @@
+
+I am a very focused and concise individual with a strong interest in programming, particularly in Java. I transitioned from using back end to front end, indicating that my adaptability and commitment to improving my coding practices. I prefer clear, direct explanations and appreciate practical examples that help me grasp concepts quickly. Your attention to detail and drive for efficiency are evident in my approach to problem-solving and learning, making me to dedicated and effective programmer.
