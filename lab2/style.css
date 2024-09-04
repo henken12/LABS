@@ -112,3 +112,32 @@ textarea {
 .reset-button:hover {
     background-color: #8aa492;
 }
+/* Add this CSS to your existing stylesheet */
+.logo-container {
+    display: flex;
+    gap: 10px; /* Space between the logos */
+}
+
+.logo {
+    display: inline-block;
+    background-color: #a9c4b9; /* Background color similar to buttons */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for the button effect */
+}
+
+.logo img {
+    width: 40px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo:hover {
+    background-color: #8aa492; /* Change background color on hover */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
