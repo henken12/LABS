@@ -47,7 +47,7 @@ console.log("========================= Exercie 3 Function Expression OutPUt=====
 
     const getNewArray=function (array){
 
-        return array.filter(f=>f.length> 5 && f.includes('a'));
+        return array.filter(f=>f.length>= 5 && f.includes('a'));
         
         }
         const teams=['chelsea','manchester','liverpool','arsenal'];
@@ -59,9 +59,9 @@ console.log("========================= Exercie 4 Function Decleration OutPUt====
 function upper(arr){
     return arr.reduce((accu,curr)=>{
     if(curr.length>5){
-        accu.push(curr.toUpperCase());
+        accu.push(curr.toUpperCase());  // Add to the accumulator if condition is true
     }
-    return accu; 
+    return accu;  // Ensure the accumulator is returned to be used in the next iteration
     }, []);
     }
     const subjects=['javaScript','java','database','software engineering'];
