@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User and Product Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        h3 {
+            color: #333;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .section {
+            width: 45%;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            background-color: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Welcome to the User and Product Dashboard</h3>
+    <p>This page displays the list of users and products from the Express TypeScript app.</p>
+
+    <div class="container">
+        <!-- User Section -->
+        <div class="section" id="users">
+            <h3>User List</h3>
+            <ul>
+                <li>John Doe - john@example.com</li>
+                <li>Jane Doe - jane@example.com</li>
+                <li>Sam Smith - sam@example.com</li>
+            </ul>
+        </div>
+
+        <!-- Product Section -->
+        <div class="section" id="products">
+            <h3>Product List</h3>
+            <ul>
+                <li>Laptop - $999.99</li>
+                <li>Smartphone - $499.99</li>
+                <li>Headphones - $199.99</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
