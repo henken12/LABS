@@ -35,10 +35,6 @@ const henok = {
     age: 25,
     isStudent: false
 };
-const nahom = {
-    name: 'Nahom',
-    age: 30,
-    isStudent: true
-};
+
 console.log(describePerson(henok));
-console.log(describePerson(nahom));
+
